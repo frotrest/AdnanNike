@@ -1,0 +1,9 @@
+.partners {
+  padding-top: 275px;
+}
+
+.partnersContent {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}

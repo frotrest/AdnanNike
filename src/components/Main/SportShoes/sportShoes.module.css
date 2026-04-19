@@ -1,0 +1,115 @@
+.sportShoes {
+  padding-top: 160px;
+}
+
+.sportShoesContent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 120px;
+}
+
+.sportShoesContentTitle {
+  position: relative;
+  color: rgba(255, 255, 255, 1);
+  font-family: 'Futura XBlkCnIt BT';
+  font-style: Extra Black Italic;
+  font-size: 96px;
+  font-weight: 400;
+  line-height: 115px;
+  letter-spacing: 0%;
+  text-align: left;
+  text-transform: capitalize;
+  color: white;
+  display: inline-block;
+  margin: 0px;
+  transform: rotate(-10.67deg);
+  text-transform: uppercase;
+}
+
+.sportShoesContentTitle::after {
+  content: attr(data-text);
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: url('@assets/racing-flag.png') no-repeat left / contain;
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: transparent;
+  opacity: 0.8;
+  pointer-events: none;
+}
+
+.sportShoesContentSubTitle {
+  font-family: 'Futura XBlkCnIt BT';
+  font-style: Extra Black Italic;
+  font-size: 96px;
+  font-weight: 400;
+  line-height: 100%;
+  letter-spacing: 0%;
+  text-align: left;
+  text-transform: capitalize;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: rgba(255, 255, 255, 1);
+  color: transparent;
+  position: absolute;
+  z-index: -1;
+  right: -100px;
+  bottom: -50px;
+  transform: rotate(-0.67deg);
+  text-transform: uppercase;
+}
+
+.sportShoesCards {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  width: 100%;
+}
+
+.firstRow {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 45px;
+}
+
+.secondRow {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 45px;
+}
+
+.sportShoesCard {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+.sportShoesCard:hover {
+  transform: translateY(-10px);
+}
+
+.sportShoesCardImg {
+  width: 400px;
+  height: 250px;
+  object-fit: contain;
+}
+
+.sportShoesCardTitle {
+  color: rgba(255, 255, 255, 1);
+  font-family: 'Futura LtCn BT';
+  font-style: Light;
+  font-size: 24px;
+  font-weight: 300;
+  line-height: 29px;
+  letter-spacing: 0%;
+  text-transform: capitalize;
+}

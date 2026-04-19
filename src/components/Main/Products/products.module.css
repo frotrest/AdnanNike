@@ -1,0 +1,83 @@
+.products {
+  padding-top: 130px;
+  position: relative;
+}
+
+.productsContent {
+  display: flex;
+  justify-content: flex-end;
+  gap: 40px;
+  align-items: center;
+}
+
+.product {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  position: relative;
+  border: 2px solid rgba(255, 255, 255, 1);
+  padding: 130px 130px 60px 30px;
+  height: 200px;
+}
+
+.productImg {
+  position: absolute;
+
+  bottom: 110px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 230px;
+  object-fit: contain;
+}
+
+.productTitle {
+  color: rgba(255, 255, 255, 1);
+  font-family: 'Futura LtCn BT';
+  font-style: Light;
+  font-size: 24px;
+  font-weight: 300;
+  line-height: 0px;
+  letter-spacing: 0%;
+  text-transform: uppercase;
+}
+
+.flashContent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.flashContentRed {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: rgba(186, 0, 0, 1);
+  padding-top: 20px;
+  padding-bottom: 20px;
+  transform: rotate(-2.07deg);
+  width: calc(100% - 1px);
+}
+
+.flashContentWord {
+  color: rgba(255, 255, 255, 1);
+  font-family: 'Futura LtCn BT';
+  font-style: Extra Black Italic;
+  font-size: 32px;
+  font-weight: 400;
+  line-height: 38px;
+  letter-spacing: 100%;
+}
+
+.flashContentBlack {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: black;
+  transform: rotate(3.02deg);
+  width: calc(100% - 1px);
+  padding-top: 20px;
+  padding-bottom: 20px;
+  position: absolute;
+}

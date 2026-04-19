@@ -1,0 +1,57 @@
+.headerContent {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 115px;
+  position: relative;
+}
+
+.navBar {
+  display: flex;
+  align-items: center;
+  gap: 35px;
+  height: 100%;
+}
+
+.navBarItem {
+  color: rgba(255, 255, 255, 1);
+  font-family: 'Futura Bk BT', sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  text-transform: uppercase;
+  text-decoration: none;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  height: 100%;
+  position: relative;
+  transition: color 0.3s ease;
+}
+
+.navBarItem::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 5px;
+  background-color: rgba(186, 0, 0, 1);
+  opacity: 0;
+  transform: translateY(-100%);
+  transition: all 0.3s ease;
+}
+
+.navBarItem:hover::before {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.personalActions {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+
+.personalActions svg {
+  cursor: pointer;
+}

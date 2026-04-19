@@ -1,0 +1,166 @@
+.footer {
+  padding-top: 70px;
+}
+
+.footerContent {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.footerFormBlock {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 30px;
+}
+
+.footerFormBlockTitle {
+  color: rgba(255, 255, 255, 1);
+  font-family: 'Futura Bk BT';
+  font-style: Bold;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 64px;
+  letter-spacing: 0%;
+  text-transform: uppercase;
+}
+
+.footerForm {
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.footerFormLabelInput {
+  color: rgba(255, 255, 255, 0.5);
+  font-family: 'Futura Bk BT';
+  font-style: Regular;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0%;
+  text-transform: capitalize;
+  border: 1px solid rgba(255, 255, 255, 1);
+  border-radius: 80px;
+  padding: 15px 95px 15px 25px;
+  background: none;
+  outline: none;
+}
+
+.footerFormBtn {
+  border-radius: 80px;
+  background-color: white;
+  color: rgba(0, 0, 0, 1);
+  font-family: 'Futura Bk BT';
+  font-style: Regular;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0%;
+  padding: 15px 40px;
+  border: none;
+  position: absolute;
+  right: -100px;
+  cursor: pointer;
+  opacity: 0.9;
+  transition: opacity 0.3s ease;
+}
+
+.footerFormBtn:hover {
+  opacity: 1;
+}
+
+.footerFormBlockImg {
+  width: 240px;
+  height: 125px;
+  margin-top: 65px;
+}
+
+.commonQuestions {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  gap: 160px;
+}
+
+.commonQuestion {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 25px;
+  width: 160px;
+}
+
+.commonRow {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 50px;
+}
+
+.commonQuestionTitle {
+  color: rgba(255, 255, 255, 1);
+  font-family: 'Futura XBlkCnIt BT';
+  font-style: Extra Black Italic;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 29px;
+  letter-spacing: 0%;
+  text-transform: uppercase;
+}
+
+.listQuestions {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 15px;
+  padding: 0px;
+  margin: 0px;
+}
+
+.listQuestionsItem {
+  color: rgba(255, 255, 255, 1);
+  font-family: 'Futura LtCn BT';
+  font-style: Light;
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 24px;
+  letter-spacing: 0%;
+  list-style: none;
+  cursor: pointer;
+}
+
+.waterMark {
+  padding-top: 80px;
+  padding-bottom: 30px;
+}
+
+.waterMarkContent {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.waterMarkContentTitle {
+  color: rgba(255, 255, 255, 1);
+  font-family: 'Futura Bk BT';
+  font-style: Book;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19px;
+  letter-spacing: 0%;
+  text-transform: capitalize;
+  margin: 0px;
+}
+
+.networks {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+
+.networks svg {
+  cursor: pointer;
+}

@@ -1,0 +1,47 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0px;
+  padding: 0px;
+  background-color: rgba(0, 0, 0, 1);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.container {
+  width: 1340px;
+  margin: 0px auto;
+}
+
+main {
+  background: url('./assets/main.png') no-repeat center 0px / 120%;
+}
+
+@font-face {
+  font-family: 'Futura BK BT';
+  src: url('./fonts/futurabtbook.ttf');
+}
+
+@font-face {
+  font-family: 'Futura LtCn BT';
+  src: url('./fonts/futuralightcondensedbt.ttf');
+}
+
+@font-face {
+  font-family: 'Futura Md BT';
+  src: url('./fonts/futuramdbt_bold.otf');
+}
+
+@font-face {
+  font-family: 'Futura Hv BT';
+  src: url('./fonts/futuraheavy.ttf');
+}
+
+@font-face {
+  font-family: 'Futura XBlkCnIt BT';
+  src: url('./fonts/futuraextrablackcondenseditalicbt.ttf');
+}
