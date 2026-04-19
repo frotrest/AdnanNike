@@ -1,5 +1,5 @@
 .hero {
-  background: url('/AdnanNike/src/assets/hero.png') no-repeat center 0px / 110%;
+  background: url('@assets/hero.png') no-repeat center 0px / 110%;
 }
 
 .heroContent {
