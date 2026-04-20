@@ -7,7 +7,7 @@ Offer a convenient, long-term type of shoes shop for people who want to wear fas
 Serve as a portfolio piece showing frontend architecture, stylish and unique design.
 
 ## Features
-Core Functionality
+**Core Functionality**
 
 Unique design: I figure out that you've never seen sites kind of that with unique and breathetaking design.
 
