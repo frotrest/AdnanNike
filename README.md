@@ -9,7 +9,7 @@ Serve as a portfolio piece showing frontend architecture, stylish and unique des
 ## Features
 **Core Functionality**
 
-Unique design: I figure out that you've never seen sites kind of that with unique and breathetaking design.
+Unique design: I figure out that you've never seen sites kind of that with unique and breathtaking design.
 
 Animations on Scroll: elements annotated with data-animate are animated when they enter the viewport using IntersectionObserver.
 
