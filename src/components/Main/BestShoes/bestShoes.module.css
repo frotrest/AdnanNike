@@ -18,7 +18,6 @@
 .bestShoesDescriptionTitle {
   color: rgba(255, 255, 255, 1);
   font-family: 'Futura Md BT';
-  font-style: Medium;
   font-size: 64px;
   font-weight: 500;
   line-height: 77px;
@@ -30,7 +29,6 @@
 .bestShoesDescriptionItem {
   color: rgba(255, 255, 255, 1);
   font-family: 'Futura Bk BT';
-  font-style: Book;
   font-size: 24px;
   font-weight: 400;
   line-height: 29px;
@@ -49,7 +47,6 @@
   padding: 10px 20px;
   color: rgba(255, 255, 255, 1);
   font-family: 'Futura Bk BT';
-  font-style: Book;
   font-size: 12px;
   font-weight: 400;
   line-height: 0px;
@@ -75,9 +72,9 @@
     rgba(186, 0, 0, 0.28) 360deg,
     rgba(186, 0, 0, 1) 360deg
   );
+  z-index: -1;
+  position: absolute;
+  top: 0;
 }
 
-.bestShoesContentBoxImg {
-  position: absolute;
-  z-index: 2;
-}
+

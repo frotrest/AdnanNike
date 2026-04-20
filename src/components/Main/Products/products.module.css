@@ -22,7 +22,6 @@
 
 .productImg {
   position: absolute;
-
   bottom: 110px;
   left: 50%;
   transform: translateX(-50%);
@@ -33,7 +32,6 @@
 .productTitle {
   color: rgba(255, 255, 255, 1);
   font-family: 'Futura LtCn BT';
-  font-style: Light;
   font-size: 24px;
   font-weight: 300;
   line-height: 0px;
@@ -63,7 +61,6 @@
 .flashContentWord {
   color: rgba(255, 255, 255, 1);
   font-family: 'Futura LtCn BT';
-  font-style: Extra Black Italic;
   font-size: 32px;
   font-weight: 400;
   line-height: 38px;
