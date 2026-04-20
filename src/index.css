@@ -21,6 +21,10 @@ main {
   background: url('./assets/main.png') no-repeat center 0px / 120%;
 }
 
+[data-animate] {
+  opacity: 0;
+}
+
 @font-face {
   font-family: 'Futura BK BT';
   src: url('./fonts/futurabtbook.ttf');
