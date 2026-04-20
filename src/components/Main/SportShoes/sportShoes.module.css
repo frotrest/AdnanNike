@@ -13,7 +13,6 @@
   position: relative;
   color: rgba(255, 255, 255, 1);
   font-family: 'Futura XBlkCnIt BT';
-  font-style: Extra Black Italic;
   font-size: 96px;
   font-weight: 400;
   line-height: 115px;
@@ -45,7 +44,6 @@
 
 .sportShoesContentSubTitle {
   font-family: 'Futura XBlkCnIt BT';
-  font-style: Extra Black Italic;
   font-size: 96px;
   font-weight: 400;
   line-height: 100%;
@@ -106,7 +104,6 @@
 .sportShoesCardTitle {
   color: rgba(255, 255, 255, 1);
   font-family: 'Futura LtCn BT';
-  font-style: Light;
   font-size: 24px;
   font-weight: 300;
   line-height: 29px;

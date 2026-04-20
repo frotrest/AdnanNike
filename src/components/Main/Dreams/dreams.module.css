@@ -18,7 +18,6 @@
 .visionariesContentMainTitle {
   color: white;
   font-family: 'Futura Md BT';
-  font-style: Medium;
   font-size: 48px;
   font-weight: 500;
   line-height: 58px;
@@ -35,7 +34,6 @@
 .visionariesContentItem {
   color: rgba(255, 255, 255, 1);
   font-family: 'Futura Bk BT';
-  font-style: Book;
   font-size: 16px;
   font-weight: 400;
   line-height: 19px;
@@ -48,7 +46,6 @@
 .visionariesContentTitle {
   color: rgba(255, 255, 255, 1);
   font-family: 'Futura Bk BT';
-  font-style: Book;
   font-size: 16px;
   font-weight: 600;
   line-height: 19px;
@@ -60,7 +57,6 @@
 .visionariesContentDescription {
   color: rgba(255, 255, 255, 1);
   font-family: 'Futura Bk BT';
-  font-style: Book;
   font-size: 16px;
   font-weight: 400;
   line-height: 19px;
@@ -80,7 +76,6 @@
   padding: 10px 20px;
   color: rgba(255, 255, 255, 1);
   font-family: 'Futura Bk BT';
-  font-style: Book;
   font-size: 12px;
   font-weight: 400;
   line-height: 0px;

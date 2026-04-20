@@ -14,7 +14,6 @@
 .sellersContentTitle {
   color: rgba(255, 255, 255, 1);
   font-family: 'Futura Md BT';
-  font-style: Medium;
   font-size: 64px;
   font-weight: 500;
   line-height: 64px;
@@ -47,7 +46,6 @@
 
 .productTypeTitle {
   font-family: 'Futura Md BT';
-  font-style: Bold Italic;
   font-size: 64px;
   font-weight: 400;
   line-height: 64px;
