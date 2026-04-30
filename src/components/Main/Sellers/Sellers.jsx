@@ -2,10 +2,10 @@ import React from 'react';
 import clsx from 'clsx';
 import styles from './sellers.module.css';
 import Container from '../../../Container';
-import RedShoes from '@assets/red-nike.png';
-import Woman from '@assets/women.png';
-import Kids from '@assets/kids.png';
-import Men from '@assets/men.png';
+import RedShoes from '@assets/red-nike.webp';
+import Woman from '@assets/women.webp';
+import Kids from '@assets/kids.webp';
+import Men from '@assets/men.webp';
 
 const Sellers = () => {
   const sellers = [
@@ -45,6 +45,7 @@ const Sellers = () => {
                 src={item.img}
                 alt={item.alt}
                 className={clsx(styles.productTypeImg)}
+                loading="lazy"
               />
               <h2 className={clsx(styles.productTypeTitle)}>{item.title}</h2>
             </div>

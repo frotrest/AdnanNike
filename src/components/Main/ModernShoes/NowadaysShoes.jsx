@@ -2,7 +2,7 @@ import React from 'react';
 import clsx from 'clsx';
 import styles from './modernShoes.module.css';
 import Container from '../../../Container';
-import ModernShoes from '@assets/gray-nike.png';
+import ModernShoes from '@assets/gray-nike.webp';
 import { TiArrowForward } from 'react-icons/ti';
 
 const NowadaysShoes = () => {
@@ -17,6 +17,7 @@ const NowadaysShoes = () => {
             src={ModernShoes}
             alt="modernShoes"
             className={clsx(styles.modernShoesContentImg)}
+            loading="lazy"
           />
         </div>
         <div className={clsx(styles.modernShoes)}>

@@ -2,8 +2,8 @@ import React from 'react';
 import clsx from 'clsx';
 import styles from './description.module.css';
 import Container from '../../../Container';
-import FirstModel from '@assets/girl-model-first.png';
-import SecondModel from '@assets/girl-model-second.png';
+import FirstModel from '@assets/girl-model-first.webp';
+import SecondModel from '@assets/girl-model-second.webp';
 import { TiArrowForward } from 'react-icons/ti';
 
 const Description = () => {
@@ -14,9 +14,10 @@ const Description = () => {
         dataAnimate="fadeInLeft"
       >
         <h2 className={clsx(styles.descriptionContentTitle)}>
-          The essence <img src={FirstModel} alt="first-model" />{' '}
+          The essence <img src={FirstModel} alt="first-model" loading="lazy" />{' '}
           <span className={clsx(styles.descriptionContentSubTitle)}>
-            handcrafted <img src={SecondModel} alt="second-model" />
+            handcrafted{' '}
+            <img src={SecondModel} alt="second-model" loading="lazy" />
           </span>{' '}
           of footwear
         </h2>

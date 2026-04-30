@@ -3,7 +3,7 @@ import clsx from 'clsx';
 import styles from './footer.module.css';
 import Container from '../../Container';
 import { SiNike } from 'react-icons/si';
-import Nike from '@assets/logo-footer.png';
+import Nike from '@assets/logo-footer.webp';
 
 const Footer = ({ children }) => {
   const [email, setEmail] = useState('');
@@ -36,6 +36,7 @@ const Footer = ({ children }) => {
             src={Nike}
             alt="nike-logo"
             className={clsx(styles.footerFormBlockImg)}
+            loading="lazy"
           />
         </div>
         <div className={clsx(styles.commonQuestions)}>
