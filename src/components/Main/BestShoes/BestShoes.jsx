@@ -1,7 +1,7 @@
 import React from 'react';
 import clsx from 'clsx';
 import styles from './bestShoes.module.css';
-import BestShoesImg from '@assets/best-shoes.png';
+import BestShoesImg from '@assets/best-shoes.webp';
 import Container from '../../../Container';
 import { TiArrowForward } from 'react-icons/ti';
 
@@ -29,6 +29,7 @@ const BestShoes = () => {
             src={BestShoesImg}
             alt="best-shoes"
             className={clsx(styles.bestShoesContentBoxImg)}
+            loading="lazy"
           />
         </div>
       </Container>

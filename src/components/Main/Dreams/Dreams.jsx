@@ -1,7 +1,7 @@
 import React from 'react';
 import clsx from 'clsx';
 import styles from './dreams.module.css';
-import Visionaries from '@assets/visionaries.png';
+import Visionaries from '@assets/visionaries.webp';
 import Container from '../../../Container';
 import { TiArrowForward } from 'react-icons/ti';
 
@@ -29,7 +29,7 @@ const Dreams = () => {
         className={clsx(styles.dreamsContent)}
         dataAnimate="fadeInLeft"
       >
-        <img src={Visionaries} alt="visionaries" />
+        <img src={Visionaries} alt="visionaries" loading="lazy" />
         <div className={clsx(styles.visionariesContent)}>
           <h2 className={clsx(styles.visionariesContentMainTitle)}>
             WE ARE{' '}

@@ -2,9 +2,9 @@ import React from 'react';
 import clsx from 'clsx';
 import styles from './products.module.css';
 import Container from '../../../Container';
-import Cosmic from '@assets/cosmic-unity.png';
-import Dunk from '@assets/dunk-high.png';
-import Dynamo from '@assets/dynamo.png';
+import Cosmic from '@assets/cosmic-unity.webp';
+import Dunk from '@assets/dunk-high.webp';
+import Dynamo from '@assets/dynamo.webp';
 
 const Products = () => {
   const flashWords = Array(4).fill('FLASH');
@@ -40,6 +40,7 @@ const Products = () => {
               src={item.img}
               alt={item.alt}
               className={clsx(styles.productImg)}
+              loading="lazy"
             />
             <h2 className={clsx(styles.productTitle)}>{item.title}</h2>
           </div>

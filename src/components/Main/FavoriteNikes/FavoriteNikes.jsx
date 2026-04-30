@@ -2,9 +2,9 @@ import React from 'react';
 import clsx from 'clsx';
 import styles from './favoriteNikes.module.css';
 import Container from '../../../Container';
-import Mercurial from '@assets/mercurial.png';
-import AirZoom from '@assets/air-zoom.png';
-import YellowDrunk from '@assets/yellow-dunk.png';
+import Mercurial from '@assets/mercurial.webp';
+import AirZoom from '@assets/air-zoom.webp';
+import YellowDrunk from '@assets/yellow-dunk.webp';
 
 const FavoriteNikes = () => {
   const favoriteNikes = [
@@ -45,6 +45,7 @@ const FavoriteNikes = () => {
                 src={item.img}
                 alt={item.alt}
                 className={clsx(styles.favoriteCardImg)}
+                loading="lazy"
               />
             </div>
           ))}

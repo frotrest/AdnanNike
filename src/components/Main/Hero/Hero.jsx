@@ -2,14 +2,19 @@ import React from 'react';
 import clsx from 'clsx';
 import styles from './hero.module.css';
 import Container from '../../../Container';
-import Shoes from '@assets/hero-shoes.png';
+import Shoes from '@assets/hero-shoes.webp';
 import { TiArrowForward } from 'react-icons/ti';
 
 const Hero = ({ children }) => {
   return (
     <section className={clsx(styles.hero)}>
       <Container className={clsx(styles.heroContent)} dataAnimate="fadeIn">
-        <img src={Shoes} alt="shoes" className={clsx(styles.heroContentImg)} />
+        <img
+          src={Shoes}
+          alt="shoes"
+          className={clsx(styles.heroContentImg)}
+          fetchPriority="high"
+        />
         <h1 className={clsx(styles.heroContentTitle)}>
           AIR JORDAN 1 RETRO HIGH OG DUNK HIGH
         </h1>

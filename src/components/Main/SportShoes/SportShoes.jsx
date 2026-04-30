@@ -2,12 +2,12 @@ import React from 'react';
 import clsx from 'clsx';
 import styles from './sportShoes.module.css';
 import Container from '../../../Container';
-import BlueShoes from '@assets/blue-nike.png';
-import AirJordan from '@assets/air-jorden.png';
-import PurpleJordan from '@assets/purple-jorden.png';
-import HighJordan from '@assets/high-jorden.png';
-import Yeeze from '@assets/yeeze.png';
-import Vens from '@assets/vans.png';
+import BlueShoes from '@assets/blue-nike.webp';
+import AirJordan from '@assets/air-jorden.webp';
+import PurpleJordan from '@assets/purple-jorden.webp';
+import HighJordan from '@assets/high-jorden.webp';
+import Yeeze from '@assets/yeeze.webp';
+import Vens from '@assets/vans.webp';
 
 const SportShoes = () => {
   return (
@@ -27,6 +27,7 @@ const SportShoes = () => {
                 src={BlueShoes}
                 alt="blueShoes"
                 className={clsx(styles.sportShoesCardImg)}
+                loading="lazy"
               />
               <h2 className={clsx(styles.sportShoesCardTitle)}>
                 Nike Air Max Plus 3

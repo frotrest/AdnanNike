@@ -2,14 +2,14 @@ import React from 'react';
 import clsx from 'clsx';
 import styles from './partners.module.css';
 import Container from '../../../Container';
-import Adidas from '@assets/adidas.png';
-import Nike from '@assets/nike.png';
-import Puma from '@assets/puma.png';
-import Converse from '@assets/converse.png';
-import Reebok from '@assets/reebok.png';
-import VansLogo from '@assets/vans-logo.png';
-import BasketBall from '@assets/basketball-player.png';
-import NewBalance from '@assets/newbalance.png';
+import Adidas from '@assets/adidas.webp';
+import Nike from '@assets/nike.webp';
+import Puma from '@assets/puma.webp';
+import Converse from '@assets/converse.webp';
+import Reebok from '@assets/reebok.webp';
+import VansLogo from '@assets/vans-logo.webp';
+import BasketBall from '@assets/basketball-player.webp';
+import NewBalance from '@assets/newbalance.webp';
 
 const Partners = () => {
   const partners = [
@@ -62,6 +62,7 @@ const Partners = () => {
             key={partner.id}
             src={partner.partner}
             alt={partner.description}
+            loading="lazy"
           />
         ))}
       </div>

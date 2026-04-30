@@ -2,7 +2,7 @@ import React from 'react';
 import clsx from 'clsx';
 import styles from './nikeClub.module.css';
 import Container from '../../../Container';
-import BlackNike from '@assets/black-nike.png';
+import BlackNike from '@assets/black-nike.webp';
 import { TiArrowForward } from 'react-icons/ti';
 import { SiNike } from 'react-icons/si';
 
@@ -13,6 +13,7 @@ const NikeClub = () => {
         src={BlackNike}
         alt="black-nike"
         className={clsx(styles.nikeClubImg)}
+        loading="lazy"
       />
       <Container
         className={clsx(styles.nikeClubContent)}
