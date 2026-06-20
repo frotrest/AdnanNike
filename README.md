@@ -6,7 +6,7 @@ solid frontend architecture.
 
 ## Purpose
 
-Provide a convenient, content-rich website for a tennis club: information
+Provide a convenient, content-rich website for a nike club: information
 about the sport equipment.
 
 Serve as a portfolio piece showing frontend architecture, component
