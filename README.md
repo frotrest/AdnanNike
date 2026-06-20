@@ -1,16 +1,13 @@
 # Project Overview
 
-**TennisPlus** is a pet project built around a tennis club website. It combines an 
-informational part (about the club, coaching staff, news, tournaments)
-with an e-commerce section for tennis gear, and is designed as a learning
+**AdnanNike** is a pet project that inspired by Nike style. This project is designed as a learning
 project that demonstrates practical React patterns, a clean modern UI, and
 solid frontend architecture.
 
 ## Purpose
 
 Provide a convenient, content-rich website for a tennis club: information
-about the club, coaching staff, schedules, and news, combined with a shop
-for tennis equipment and apparel.
+about the sport equipment.
 
 Serve as a portfolio piece showing frontend architecture, component
 design, state management, and attention to UI/UX detail.
@@ -25,16 +22,12 @@ not a template, with attention to typography, spacing, and motion.
 React for UI — component-driven architecture with reusable building
 blocks (Header, Hero, Footer, cards, sliders).
 
-Client-side routing — multi-page navigation (home, about the club,
-news) handled with React Router and a shared
-Layout using Outlet.
+Scroll animation was implemented by Intersection observer and my personal hook
 
 ## The summary of tools that I used
 
 **React**
 
-**React Router**
-
-**Swiper.js**
+**Animations**
 
 **CSS Modules**
