@@ -25,25 +25,16 @@ not a template, with attention to typography, spacing, and motion.
 React for UI — component-driven architecture with reusable building
 blocks (Header, Hero, Footer, cards, sliders).
 
-elements and triggers their enter animations; all DOM-observation logic is
-kept inside useEffect to respect React's lifecycle.
-
 Client-side routing — multi-page navigation (home, about the club,
-news, services, shop, contacts) handled with React Router and a shared
+news) handled with React Router and a shared
 Layout using Outlet.
-
-State management with Redux Toolkit — product data, filters, and UI
-state are managed through slices and async thunks.
-
-Responsive design — layouts adapt across desktop, tablet, and mobile
-breakpoints.
 
 ## The summary of tools that I used
 
-React
+**React**
 
-React Router
+**React Router**
 
-Swiper.js
+**Swiper.js**
 
-CSS Modules
+**CSS Modules**
